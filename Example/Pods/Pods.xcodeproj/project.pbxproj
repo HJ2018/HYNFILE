@@ -15,8 +15,9 @@
 		46CFFB53DD54BFC716E7F037EC6B765A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6AE89ECAD58E01B3954AD2A208D6FEC8 /* Pods-HYNFILE_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 670F71D4C1F56D2651CB967CE309C104 /* Pods-HYNFILE_Example-dummy.m */; };
 		98FD252B0AC69D3D1361CE736A81661D /* Pods-HYNFILE_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1C659A9F5400BB322CF00E28F4D09A /* Pods-HYNFILE_Tests-dummy.m */; };
+		A13CC5E92071AC8800D52B75 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A13CC5E72071AC8800D52B75 /* Test.m */; };
+		A13CC5EA2071AC8800D52B75 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = A13CC5E82071AC8800D52B75 /* Test.h */; };
 		EBC34BA94A478FDFBE8C5FAEB9B9B584 /* Pods-HYNFILE_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC8A5BED7CC1BEC0A0438D7DE79178B /* Pods-HYNFILE_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F90FA7A29F106DCA8B7D7870DFD61D35 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9238E0DC573F4CF4460F811B187C0BFB /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +34,13 @@
 		02D8C5345A643CC3A7C495160CFB42C6 /* Pods-HYNFILE_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNFILE_Example-resources.sh"; sourceTree = "<group>"; };
 		0C726B0604275557D9976145F920CF52 /* Pods-HYNFILE_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNFILE_Tests-resources.sh"; sourceTree = "<group>"; };
 		0E5ECAA4CE209F844F41A8CB625C0899 /* Pods-HYNFILE_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNFILE_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		168914FDB8903E2E2F9F384F778B126D /* Pods-HYNFILE_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HYNFILE_Tests.modulemap"; sourceTree = "<group>"; };
+		168914FDB8903E2E2F9F384F778B126D /* Pods-HYNFILE_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HYNFILE_Tests.modulemap"; sourceTree = "<group>"; };
 		1A49D6FD3B25CD3979D26835494D7D81 /* Pods-HYNFILE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNFILE_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1B1C659A9F5400BB322CF00E28F4D09A /* Pods-HYNFILE_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYNFILE_Tests-dummy.m"; sourceTree = "<group>"; };
 		3DC3916122C34DE7C1B6A565896DFE6F /* HYNFILE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYNFILE-dummy.m"; sourceTree = "<group>"; };
 		4B0D48986D26D768A22DBB3CDC96CB87 /* Pods-HYNFILE_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYNFILE_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4CB233B25AE26D9CF30BFB3359256A22 /* HYNFILE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYNFILE.framework; path = HYNFILE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		504D347DF2CB05243E16BE73CF051D9C /* Pods-HYNFILE_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HYNFILE_Example.modulemap"; sourceTree = "<group>"; };
+		4CB233B25AE26D9CF30BFB3359256A22 /* HYNFILE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYNFILE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504D347DF2CB05243E16BE73CF051D9C /* Pods-HYNFILE_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HYNFILE_Example.modulemap"; sourceTree = "<group>"; };
 		5094D983F8F8105155B664F54B7734CB /* Pods-HYNFILE_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYNFILE_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		670F71D4C1F56D2651CB967CE309C104 /* Pods-HYNFILE_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYNFILE_Example-dummy.m"; sourceTree = "<group>"; };
@@ -47,21 +48,22 @@
 		735195ABE0917B7875375D321236626F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		738DA434667CC54FA66D210D31CEB43F /* Pods-HYNFILE_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNFILE_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7C17326AD56573AD7A5248981F89F9A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		861F53D1E2299109EA45B50CDEFD8620 /* HYNFILE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HYNFILE.modulemap; sourceTree = "<group>"; };
+		861F53D1E2299109EA45B50CDEFD8620 /* HYNFILE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HYNFILE.modulemap; sourceTree = "<group>"; };
 		88E1A95EA39594F82A82A90F656F004F /* Pods-HYNFILE_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYNFILE_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F0F34D0738DD98B2DC2C976214464C6 /* Pods-HYNFILE_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYNFILE_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9238E0DC573F4CF4460F811B187C0BFB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95ACFD99B4AD0B1953156D0C39AD20B0 /* HYNFILE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYNFILE.xcconfig; sourceTree = "<group>"; };
 		96C84AD81B8078C19052842114112080 /* Pods-HYNFILE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNFILE_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D11636425EFE8022D46C1D4C082FFFB /* Pods-HYNFILE_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNFILE_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A13CC5E72071AC8800D52B75 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		A13CC5E82071AC8800D52B75 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		ABC8A5BED7CC1BEC0A0438D7DE79178B /* Pods-HYNFILE_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYNFILE_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B7DD0582A46439B56B4FF1AFD8D1033F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6B5F21D48DB5E2973AAFDE364B3022 /* Pods-HYNFILE_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYNFILE_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D34F17966265AE626317ABA8E3F8F85F /* Pods_HYNFILE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYNFILE_Example.framework; path = "Pods-HYNFILE_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34F17966265AE626317ABA8E3F8F85F /* Pods_HYNFILE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYNFILE_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF13EC1C828BE39E8E54859EC8BFD146 /* HYNFILE-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNFILE-prefix.pch"; sourceTree = "<group>"; };
 		F76044A83B341F3930356FB95E62751B /* HYNFILE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNFILE-umbrella.h"; sourceTree = "<group>"; };
-		FF4A098333E7943351F7FAF1498616FA /* Pods_HYNFILE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYNFILE_Tests.framework; path = "Pods-HYNFILE_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4A098333E7943351F7FAF1498616FA /* Pods_HYNFILE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYNFILE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,9 +152,9 @@
 		6CBDC8C1F80E2C3AA55980E0E85C3FCA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9238E0DC573F4CF4460F811B187C0BFB /* ReplaceMe.m */,
+				A13CC5E82071AC8800D52B75 /* Test.h */,
+				A13CC5E72071AC8800D52B75 /* Test.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -161,7 +163,6 @@
 			children = (
 				6CBDC8C1F80E2C3AA55980E0E85C3FCA /* Classes */,
 			);
-			name = HYNFILE;
 			path = HYNFILE;
 			sourceTree = "<group>";
 		};
@@ -239,6 +240,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13CC5EA2071AC8800D52B75 /* Test.h in Headers */,
 				312CE12B486C2B0C80CE86464153E10C /* HYNFILE-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05707A7D68EF536097E7FB5082C2168A /* HYNFILE-dummy.m in Sources */,
-				F90FA7A29F106DCA8B7D7870DFD61D35 /* ReplaceMe.m in Sources */,
+				A13CC5E92071AC8800D52B75 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
