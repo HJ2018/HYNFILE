@@ -1,7 +1,10 @@
+
+platform :ios, '8.0'
 use_frameworks!
 
 target 'HYNFILE_Example' do
 #  pod 'HYNFILE', :path => '../'
+pod 'HYNFILE'
 
   target 'HYNFILE_Tests' do
     inherit! :search_paths

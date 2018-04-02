@@ -1,6 +1,0 @@
-framework module HYNFILE {
-  umbrella header "HYNFILE-umbrella.h"
-
-  export *
-  module * { export * }
-}
