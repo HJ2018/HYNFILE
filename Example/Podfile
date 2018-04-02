@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HYNFILE_Example' do
+  pod 'HYNFILE', :path => '../'
+
+  target 'HYNFILE_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
